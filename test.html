@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .selfdrie-noDisplay{
+            display: none;
+        }
+        .driver-noDisplay{
+            display: none;
+        }
+        .active{
+            display: contents;
+        }
+
+    </style>
+</head>
+<body>
+    <button class="selfdrie">self drive</button>
+    <button class="driver">driver</button>
+    <div class="selfdrie-noDisplay">
+        <P>
+            <input type="radio" name="selfdrie" id="bike" value="Bike" onclick="showDropdown('opt1')">
+            <label for="bike">Bike</label>
+        </p>
+        <p>
+            <input type="radio" name="selfdrie" id="car" value="Car" onclick="showDropdown('opt2')">
+            <label for="car">Car</label>
+        </P>
+    </div>
+    <div class="driver-noDisplay">
+        <P>
+            <input type="radio" name="selfdrie" id="bike" value="Bike" onclick="showDropdown('opt3')">
+            <label for="bike">bus</label>
+        </p>
+        <p>
+            <input type="radio" name="selfdrie" id="car" value="Car" onclick="showDropdown('opt4')">
+            <label for="car">Car</label>
+        </P>
+    </div>
+    <div id="dropdown">
+
+    </div>
+    <div id="img-holder">
+        
+    </div>
+    <div id="priceperhr">
+
+    </div>
+    <div id="numberofdrivers">
+        
+    </div>
+    <div class="button">
+        <button id="sumbit"><a href="billing2.html">Checkout</a></button>
+    </div>
+</body>
+<script src="./test.js"></script>
+</html>
+
+
